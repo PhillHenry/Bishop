@@ -1,9 +1,7 @@
-from os.path import expanduser
-from sklearn.feature_extraction.text import CountVectorizer
-import matplotlib.pyplot as plt
-import numpy as np
 import random
-import statistics
+from sklearn.feature_extraction.text import CountVectorizer
+
+# symlink to this file. See https://mg.readthedocs.io/importing-local-python-modules-from-jupyter-notebooks/
 
 
 def counts_of(corpus, ngram_range):

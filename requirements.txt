@@ -9,3 +9,5 @@ praw>=2.0.0
 jinja2
 scikit-learn
 keras>=2.3.0
+pydot
+graphviz
