@@ -25,9 +25,9 @@ def chunks(lst, n):
         yield lst[i:i + n]
 
 
-def randomized_chunks_of(corpus):
+def randomized_chunks_of(corpus, up_to=2000, chunk_size=100):
     randomized_corpus = random.sample(corpus, len(corpus))
-    return list(chunks(randomized_corpus[:2000], 100))
+    return list(chunks(randomized_corpus[:up_to], chunk_size))
 
 
 def contains(x, xs):
